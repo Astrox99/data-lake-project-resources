@@ -41,9 +41,9 @@ $ mkdir output
     1. Set AWS_ACCESS_KEY_ID and AWS_ACCESS_KEY_ID in dl.cfg file.
     2. Create S3 bucket in AWS extranet and set the URL to the output_data in the main() function.
     3. Run etl.py 
-        ```bash
-        python etl.py
-        ```    
+```bash
+    python etl.py
+```    
         This file will do the following tasks:
             - Read data files from S3.
             - Extract columns to create a table.
